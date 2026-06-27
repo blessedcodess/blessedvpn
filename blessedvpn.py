@@ -205,7 +205,8 @@ PACKAGE_MANAGERS = {
     '10': ("nix-env",      "NixOS",                        ['nix-env', '-iA', 'nixpkgs.openvpn']),
     '11': ("brew",         "macOS (Homebrew)",             ['brew', 'install', 'openvpn']),
     '12': ("pkg",          "FreeBSD",                      ['sudo', 'pkg', 'install', '-y', 'openvpn']),
-    '13': ("pkg",          "Termux (Android)",             ['pkg', 'install', '-y', 'openvpn3']),
+    '13': ("pkg",          "Termux (Android)",             ['pkg', 'install', '-y', 'openvpn']),
+    '14': ("apt",         "Termux2",                       ['apt', 'install', '-y', 'openvpn']),
 }
 
 
